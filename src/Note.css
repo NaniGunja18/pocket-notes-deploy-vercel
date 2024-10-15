@@ -1,0 +1,164 @@
+.note-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: #DAE5F5;
+    font-weight: bold;
+}
+
+.note-header {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-bottom: 20px;
+    font-weight: bold;
+    background-color:  #001F8B;
+    width: 1200px;
+}
+
+.note-header h2 {
+    color: white;
+    font-size: 20px;
+}
+
+.group-initials {
+    background-color: #1a73e8;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 15px;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.note-list {
+    width: 1000px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    flex-grow: 1;
+    margin-left: 90px;
+    font-weight: normal;
+}
+
+.note-item {
+    padding: 10px;
+    border-bottom: 1px solid #e1e4e8;
+    font-weight: normal;
+}
+
+.note-textarea {
+    width: 1000px;
+    height: 100px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+.submit-btn img {
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+.note-input-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.note-textarea {
+    width: 100%;
+    padding-right: 50px;
+}
+
+.submit-btn {
+    position: absolute;
+    top: 78%;
+    right: 15px;
+    transform: translateY(-50%);
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.note-list {
+    background-color: #DAE5F5;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .note-container {
+        padding: 10px;
+        font-weight: normal;
+    }
+
+    .note-header {
+        width: 100%;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .note-header h2 {
+        font-size: 18px;
+    }
+
+    .group-initials {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        margin-right: 8px;
+    }
+
+    .note-list {
+        width: 100%;
+        margin-left: 0;
+        padding: 8px;
+        border-radius: 5px;
+    }
+
+    .note-item {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .note-textarea {
+        width: 100%;
+        height: 120px;
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .submit-btn {
+        position: static;
+        margin-top: 10px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .submit-btn img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .note-input-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
