@@ -68,7 +68,7 @@ ul {
   position: absolute;
   bottom: 10px;
   left: 195px;
-  width: 100px;
+  width: 90px;
   height: 50px;
 }
 
@@ -76,7 +76,7 @@ ul {
   background-color: #16008B;
   color: white;
   font-size: 45px;
-  width: 20px;
+  width: 200px;
   height: 60px;
   border-radius: 50%;
   border: none;
@@ -199,26 +199,27 @@ ul {
   font-weight: bold; 
 }
 
+.NoteButton {
+  position: absolute;
+  bottom: 30px;
+  left: 195px;
+}
+
 .AddButton {
   background-color: #16008B;
   color: white;
-  font-size: 45px;
-  width: 10px; 
-  height: 40px; 
+  font-size: 44px; 
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   border: none;
   cursor: pointer;
-  display: flex; 
-  align-items: center;
-  justify-content: center;
-  padding-left: 44px;
-  padding-right: 44px;
+  text-align: center;
+  line-height: 0px; 
+  display: inline-block; 
 }
-
-.NoteButton {
-  /* position: absolute; */
-  bottom: 30px;
-  left: 195px;
+.AddButton:hover {
+  background-color:#16008B ;
 }
 
 .content {
